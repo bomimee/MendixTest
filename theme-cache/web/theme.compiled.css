@@ -27655,4 +27655,9 @@ input[type=checkbox].three-state-checkbox + .control-label {
   border-width: 0;
 }
 
+.list_flex {
+  display: flex;
+  width: 50px;
+}
+
 /*# sourceMappingURL=theme.compiled.css.map */
