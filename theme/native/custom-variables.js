@@ -13,11 +13,11 @@ import "./exclusion-variables";
 // -------------------------------------------------------------------------------------------------------------------//
 // Brand Styles
 export const brand = {
-    primary: "#264AE5",
-    success: "#3CB33D",
-    warning: "#ECA51C",
-    danger: "#E33F4E",
-    info: "#0086D9",
+    primary: "FEFBD8",
+    success: "#674188",
+    warning: "#982B1C",
+    danger: "#982B1C",
+    info: "#E2BFD9",
     primaryLight: "#F3F5FF",
     successLight: "#F1FCF1",
     warningLight: "#FFF9E6",
@@ -30,9 +30,9 @@ export const darkMode = Appearance.getColorScheme() === "dark";
 //
 // Background Colors
 export const backgroundDefaults = {
-    primaryLight: "#FFF",
+    primaryLight: "#F7EFE5",
     primaryDark: "#0A1325",
-    secondaryLight: "#F8F8F8",
+    secondaryLight: "#E2BFD9",
     secondaryDark: "#161F30"
 };
 export const background = {
@@ -58,7 +58,7 @@ export const contrast = {
 //
 // Border Style
 export const border = {
-    color: darkMode ? "#3B4251" : "#CED0D3",
+    color: darkMode ? "#674188" : "#F7EFE5",
     width: 1,
     radiusSmall: 4,
     radiusLarge: 8,
@@ -268,20 +268,20 @@ export const image = {
 // Navigation Styles
 export const navigation = {
     statusBar: {
-        backgroundColor: background.primary,
-        barStyle: darkMode ? "light-content" : "dark-content"
+        backgroundColor: "#F7EFE5",
+        // barStyle: darkMode ? "light-content" : "dark-content"
     },
     topBar: {
-        backgroundColor: brand.primary,
+        backgroundColor: "#F7EFE5",
         backButtonColor: "#FFF",
         titleColor: "#FFF",
         titleFontSize: font.sizeH6
     },
     bottomBar: {
         color: contrast.high,
-        selectedTextColor: brand.primary,
-        selectedIconColor: brand.primary,
-        backgroundColor: background.primary,
+        selectedTextColor: "#F7EFE5",
+        selectedIconColor: "#F7EFE5",
+        backgroundColor: "#F7EFE5",
         fontSize: font.sizeSmall,
         iconSize: font.sizeSmall
     },
@@ -585,10 +585,10 @@ export const slider = {
         opacity: 0.4
     },
     highlight: {
-        backgroundColor: brand.primary
+        backgroundColor: "#F7EFE5"
     },
     highlightDisabled: {
-        backgroundColor: brand.primary
+        backgroundColor:"#F7EFE5"
     },
     marker: {
         size: 24,
